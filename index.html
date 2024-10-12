@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+       <h1 class="firstname">Jenish_Prog</h1>
+        <div class="nav-links">
+            <p class="nav-link"><a href="#home">Home</a></p>
+            <p class="nav-link"><a href="#about">About Me</a></p>
+            <p class="nav-link"><a href="#skills">Skills</a></p>
+            <p class="nav-link"><a href="#project">Project</a></p>
+            <p class="nav-link"><a href="#contact">Contact</a></p>
+        </div>
+        <button class="open-btn" id="open-btn">☰</button>
+    </nav>  
+    <nav class="side-navbar" id="navbar">
+        <button class="close-btn" id="close-btn">✖</button>
+        <ul>
+            <img src="nav.png" alt="">
+            <h2 class="star">Jenish.S⭐️</h2>
+            <p>My portfolio Page</p>
+            <p>______________________________</p>
+            <span class="two">29</span>
+            <span class="por">Portfolio Viewed</span>
+            <div>
+                <span class="one">12</span>
+            <span class="con">Contact Registered</span>
+            </div>
+            <p>______________________________</p>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="nav-overlay" id="overlay"></div>
+    <div class=header id="home">
+        <div>
+            <div class="typewriter">
+                <span id="typed-text"></span>
+            </div>
+            <h2 class="eraser">I'm a Web Designer</h2>
+            <p class="para">As a web designer, I specialize in crafting visually striking and user-friendly websites that are both functional and aesthetically pleasing. My focus is on creating responsive designs that adapt seamlessly to all devices, ensuring optimal user experience.  </p>
+                <a href="IMG_20241006_115124.jpg" download="">
+                    <button class="header-button">Download CV</button>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/jen_is_h_/" class="icon instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jenish-s-4aa3692b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/jenish-prog" class="icon github" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://youtube.com/@jen_is_h?si=YcZrE2ojf5l0G2fx" class="icon youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>  
+        </div>
+        <div class="header-image">
+            <img src="IMG_20241006_115124.jpg">   
+        </div>
+    </div>
+
+
+    
+    <div id="about">
+        <div class="cold">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="box" id="box1" src="bike.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title fade-in">About Me</h1>
+                    <p class="fade-in">I am a skilled JavaScript developer and web designer, combining creativity with technical expertise to build dynamic and visually appealing websites. With a deep understanding of front-end technologies, I create user-friendly interfaces that prioritize functionality and design, delivering solutions that are both aesthetic and efficient.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab('education')">Bio Details</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>B.Tech</span><br>Artificial Intelligence and Data Science</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Photography</span><br>I wish to take passionate photo's with a deep love for capturing the world's most fleeting moments.</li>
+                            <li><span>Listening music</span><br>Music has always been more than just a background noise for me , it's a constant companion  , an emtional outlet and a sourse of inspiration .</li>
+                            <li><span>Fitness</span><br>Fitness is a not just a hobby for me it's a lifestyle.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Name :</span> Jenish.S</li>
+                            <li><span>Sex :</span>  Male</li>
+                            <li><span>Born :</span> 21-11-2005</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skill" id="skills">
+        <h1>Skills</h1>
+        <p>As a frontend developer, I am excel in HTML, CSS, and JavaScript, creating responsive user interfaces. My UI/UX design skills ensure intuitive and engaging user experiences. Additionally, My proficiency in Final Cut Pro allows you to edit professional-quality videos, combining creativity with technical expertise to deliver compelling visual content.</p>
+        <div class="ok">
+            <div class="progress-1">65%<br><br>Front-end</div>
+            <div class="progress-2">75%<br><br>UI&UX</div>
+            <div class="progress-3">90%<br><br>FCP</div>
+        </div>
+    </div>
+
+
+    <div class="card-container">
+        <div class="box" id="box1">
+            <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <h2 class="click">CLICK HERE</h2>
+                  </div>
+                  <div class="card-back">
+                    <p>I am the Front-end Developer , here is my project👇🏻</p>
+                    <div class="extra-text" style="display: none;">
+                      Coming soon....
+                    </div>
+                    <button class="read-more">Read More</button>
+                    <button class="read-less" style="display: none;">Read Less</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="box" id="box2">
+            <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                      <h2 class="click">CLICK HERE</h2>
+                  </div>
+                  <div class="card-back">
+                    <p>I am the FCP video editor , here is my project👇🏻</p>
+                    <div class="extra-text" style="display: none;">
+                      Coming soon....
+                    </div>
+                    <button class="read-more">Read More</button>
+                    <button class="read-less" style="display: none;">Read Less</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+      
+        <div class="box" id="box3">
+            <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                      <h2 class="click">CLICK HERE</h2>
+                  </div>
+                  <div class="card-back">
+                    <p>I am the UI & UX Designer , here is my project👇🏻</p>
+                    <div class="extra-text" style="display: none;">
+                      Coming soon....
+                    </div>
+                    <button class="read-more">Read More</button>
+                    <button class="read-less" style="display: none;">Read Less</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+      
+<div class="contact">
+    <div class="container" id="contact">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" name="submit-to-google-sheet">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <div class="info-container" id="infoContainer">
+            <h1 class="wel">Welcome to contact us  page</h1>
+            <img src="cat.png" alt="Please check your internet">
+            <div class="response-container" id="responseContainer">
+                <h3>Thank you, <span id="responseName"></span>!</h3>
+                <p>We will get back to you shortly.</p>
+            </div>
+            <div class="thank-you" id="thankYouMessage">
+                <h3>Thank you for your submission!</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copy">
+    <footer>
+        <h3>Portfolio</h3>
+        <p>Made with ❤️ Jenish_Prog </p>
+        <p>&copy; <span id="copyrightYear"></span> Portfolio Page. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/jen_is_h_/" class="icon instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jenish-s-4aa3692b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/jenish-prog" class="icon github" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://youtube.com/@jen_is_h?si=YcZrE2ojf5l0G2fx" class="icon youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+    </footer>
+    
+</div>
+
+
+
+    
+
+    <script src=" script.js"></script>
+
+</body>
+
+</html>
